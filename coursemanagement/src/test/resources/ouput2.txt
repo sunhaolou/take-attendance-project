@@ -1,0 +1,4 @@
+Notification Preference table created
+Notification Preference table created
+Please enter the admin's username
+Please enter the admin's password

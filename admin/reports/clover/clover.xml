@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1712268700980" clover="4.4.1">
+   <project name="backend" timestamp="1712268700546">
+      <metrics coveredelements="0" complexity="92" loc="578" methods="73" classes="17" statements="159" packages="4" coveredconditionals="0" coveredmethods="0" elements="238" ncloc="466" files="17" conditionals="6" coveredstatements="0"/>
+      <package name="edu.duke.ece651.project.team5.backend.model">
+         <metrics coveredelements="0" complexity="8" loc="119" methods="5" classes="3" statements="33" coveredconditionals="0" coveredmethods="0" elements="42" ncloc="101" files="3" conditionals="4" coveredstatements="0"/>
+         <file path="/home/zs149/project-team-5/backend/src/main/java/edu/duke/ece651/project/team5/backend/model/EmailEngine.java" name="EmailEngine.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="6" loc="94" coveredmethods="0" methods="3" elements="37" classes="1" ncloc="83" statements="30" conditionals="4" coveredstatements="0"/>
+            <class name="EmailEngine">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="6" coveredmethods="0" methods="3" elements="37" statements="30" conditionals="4" coveredstatements="0"/>
+            </class>
+            <line complexity="1" visibility="public" signature="EmailEngine()" num="39" count="0" type="method"/>
+            <line num="40" count="0" type="stmt"/>
+            <line num="41" count="0" type="stmt"/>
+            <line num="42" count="0" type="stmt"/>
+            <line complexity="2" visibility="private" signature="getCredentials(NetHttpTransport,GsonFactory) : Credential" num="47" count="0" type="method"/>
+            <line num="49" count="0" type="stmt"/>
+            <line num="50" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="50" type="cond"/>
+            <line num="51" count="0" type="stmt"/>
+            <line num="53" count="0" type="stmt"/>
+            <line num="55" count="0" type="stmt"/>
+            <line num="62" count="0" type="stmt"/>
+            <line num="63" count="0" type="stmt"/>
+            <line complexity="3" visibility="public" signature="sendEmail(String,String,String) : void" num="66" count="0" type="method"/>
+            <line num="67" count="0" type="stmt"/>
+            <line num="68" count="0" type="stmt"/>
+            <line num="69" count="0" type="stmt"/>
+            <line num="70" count="0" type="stmt"/>
+            <line num="71" count="0" type="stmt"/>
+            <line num="72" count="0" type="stmt"/>
+            <line num="73" count="0" type="stmt"/>
+            <line num="75" count="0" type="stmt"/>
+            <line num="76" count="0" type="stmt"/>
+            <line num="77" count="0" type="stmt"/>
+            <line num="78" count="0" type="stmt"/>
+            <line num="79" count="0" type="stmt"/>
+            <line num="80" count="0" type="stmt"/>
+            <line num="82" count="0" type="stmt"/>
+            <line num="83" count="0" type="stmt"/>
+            <line num="85" count="0" type="stmt"/>
+            <line num="86" count="0" type="stmt"/>
+            <line num="87" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="87" type="cond"/>
+            <line num="88" count="0" type="stmt"/>
+            <line num="90" count="0" type="stmt"/>
+         </file>
+         <file path="/home/zs149/project-team-5/backend/src/main/java/edu/duke/ece651/project/team5/backend/model/Notifiable.java" name="Notifiable.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="0" loc="7" coveredmethods="0" methods="0" elements="0" classes="1" ncloc="5" statements="0" conditionals="0" coveredstatements="0"/>
+            <class name="Notifiable">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="0" coveredmethods="0" methods="0" elements="0" statements="0" conditionals="0" coveredstatements="0"/>
+            </class>
+         </file>
+         <file path="/home/zs149/project-team-5/backend/src/main/java/edu/duke/ece651/project/team5/backend/model/EmailNotification.java" name="EmailNotification.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="2" loc="18" coveredmethods="0" methods="2" elements="5" classes="1" ncloc="13" statements="3" conditionals="0" coveredstatements="0"/>
+            <class name="EmailNotification">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="2" coveredmethods="0" methods="2" elements="5" statements="3" conditionals="0" coveredstatements="0"/>
+            </class>
+            <line complexity="1" visibility="public" signature="EmailNotification(String,String)" num="9" count="0" type="method"/>
+            <line num="10" count="0" type="stmt"/>
+            <line num="11" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="notify(Student) : void" num="14" count="0" type="method"/>
+            <line num="15" count="0" type="stmt"/>
+         </file>
+      </package>
+      <package name="edu.duke.ece651.project.team5.backend.utils">
+         <metrics coveredelements="0" complexity="11" loc="55" methods="1" classes="1" statements="26" coveredconditionals="0" coveredmethods="0" elements="27" ncloc="46" files="1" conditionals="0" coveredstatements="0"/>
+         <file path="/home/zs149/project-team-5/backend/src/main/java/edu/duke/ece651/project/team5/backend/utils/RequestHandler.java" name="RequestHandler.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="11" loc="55" coveredmethods="0" methods="1" elements="27" classes="1" ncloc="46" statements="26" conditionals="0" coveredstatements="0"/>
+            <class name="RequestHandler">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="11" coveredmethods="0" methods="1" elements="27" statements="26" conditionals="0" coveredstatements="0"/>
+            </class>
+            <line complexity="11" visibility="public" signature="handleRequest(String) : void" num="12" count="0" type="method"/>
+            <line num="14" count="0" type="stmt"/>
+            <line num="16" count="0" type="stmt"/>
+            <line num="17" count="0" type="stmt"/>
+            <line num="18" count="0" type="stmt"/>
+            <line num="19" count="0" type="stmt"/>
+            <line num="20" count="0" type="stmt"/>
+            <line num="21" count="0" type="stmt"/>
+            <line num="22" count="0" type="stmt"/>
+            <line num="24" count="0" type="stmt"/>
+            <line num="25" count="0" type="stmt"/>
+            <line num="27" count="0" type="stmt"/>
+            <line num="28" count="0" type="stmt"/>
+            <line num="29" count="0" type="stmt"/>
+            <line num="30" count="0" type="stmt"/>
+            <line num="31" count="0" type="stmt"/>
+            <line num="32" count="0" type="stmt"/>
+            <line num="34" count="0" type="stmt"/>
+            <line num="35" count="0" type="stmt"/>
+            <line num="37" count="0" type="stmt"/>
+            <line num="38" count="0" type="stmt"/>
+            <line num="40" count="0" type="stmt"/>
+            <line num="41" count="0" type="stmt"/>
+            <line num="43" count="0" type="stmt"/>
+            <line num="44" count="0" type="stmt"/>
+            <line num="46" count="0" type="stmt"/>
+            <line num="51" count="0" type="stmt"/>
+         </file>
+      </package>
+      <package name="edu.duke.ece651.project.team5.backend">
+         <metrics coveredelements="0" complexity="9" loc="56" methods="3" classes="2" statements="21" coveredconditionals="0" coveredmethods="0" elements="26" ncloc="46" files="2" conditionals="2" coveredstatements="0"/>
+         <file path="/home/zs149/project-team-5/backend/src/main/java/edu/duke/ece651/project/team5/backend/App.java" name="App.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="2" loc="20" coveredmethods="0" methods="1" elements="6" classes="1" ncloc="14" statements="5" conditionals="0" coveredstatements="0"/>
+            <class name="App">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="2" coveredmethods="0" methods="1" elements="6" statements="5" conditionals="0" coveredstatements="0"/>
+            </class>
+            <line complexity="2" visibility="public" signature="main(String[]) : void" num="8" count="0" type="method"/>
+            <line num="10" count="0" type="stmt"/>
+            <line num="11" count="0" type="stmt"/>
+            <line num="12" count="0" type="stmt"/>
+            <line num="14" count="0" type="stmt"/>
+            <line num="15" count="0" type="stmt"/>
+         </file>
+         <file path="/home/zs149/project-team-5/backend/src/main/java/edu/duke/ece651/project/team5/backend/MyServer.java" name="MyServer.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="7" loc="36" coveredmethods="0" methods="2" elements="20" classes="1" ncloc="32" statements="16" conditionals="2" coveredstatements="0"/>
+            <class name="MyServer">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="7" coveredmethods="0" methods="2" elements="20" statements="16" conditionals="2" coveredstatements="0"/>
+            </class>
+            <line complexity="6" visibility="public" signature="start(int) : void" num="12" count="0" type="method"/>
+            <line num="13" count="0" type="stmt"/>
+            <line num="14" count="0" type="stmt"/>
+            <line num="15" count="0" type="stmt"/>
+            <line num="16" count="0" type="stmt"/>
+            <line num="17" count="0" type="stmt"/>
+            <line num="18" count="0" type="stmt"/>
+            <line num="18" count="0" type="stmt"/>
+            <line num="19" count="0" type="stmt"/>
+            <line num="20" count="0" type="stmt"/>
+            <line num="21" count="0" type="stmt"/>
+            <line num="22" count="0" type="stmt"/>
+            <line num="23" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="23" type="cond"/>
+            <line num="24" count="0" type="stmt"/>
+            <line num="27" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="stop() : void" num="32" count="0" type="method"/>
+            <line num="33" count="0" type="stmt"/>
+            <line num="34" count="0" type="stmt"/>
+         </file>
+      </package>
+      <package name="edu.duke.ece651.project.team5.backend.request">
+         <metrics coveredelements="0" complexity="64" loc="348" methods="64" classes="11" statements="79" coveredconditionals="0" coveredmethods="0" elements="143" ncloc="273" files="11" conditionals="0" coveredstatements="0"/>
+         <file path="/home/zs149/project-team-5/backend/src/main/java/edu/duke/ece651/project/team5/backend/request/AddOrDropStudentToCourseRequest.java" name="AddOrDropStudentToCourseRequest.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="4" loc="19" coveredmethods="0" methods="4" elements="8" classes="1" ncloc="17" statements="4" conditionals="0" coveredstatements="0"/>
+            <class name="AddOrDropStudentToCourseRequest">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="4" coveredmethods="0" methods="4" elements="8" statements="4" conditionals="0" coveredstatements="0"/>
+            </class>
+            <line complexity="1" visibility="public" signature="getNetId() : String" num="7" count="0" type="method"/>
+            <line num="8" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getCourseId() : String" num="10" count="0" type="method"/>
+            <line num="11" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setNetId(String) : void" num="13" count="0" type="method"/>
+            <line num="14" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setCourseId(String) : void" num="16" count="0" type="method"/>
+            <line num="17" count="0" type="stmt"/>
+         </file>
+         <file path="/home/zs149/project-team-5/backend/src/main/java/edu/duke/ece651/project/team5/backend/request/GetStudentForCourseRequest.java" name="GetStudentForCourseRequest.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="9" loc="49" coveredmethods="0" methods="9" elements="21" classes="1" ncloc="37" statements="12" conditionals="0" coveredstatements="0"/>
+            <class name="GetStudentForCourseRequest">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="9" coveredmethods="0" methods="9" elements="21" statements="12" conditionals="0" coveredstatements="0"/>
+            </class>
+            <line complexity="1" visibility="public" signature="GetStudentForCourseRequest(String,String,String,String)" num="10" count="0" type="method"/>
+            <line num="11" count="0" type="stmt"/>
+            <line num="12" count="0" type="stmt"/>
+            <line num="13" count="0" type="stmt"/>
+            <line num="14" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getCourseId() : String" num="17" count="0" type="method"/>
+            <line num="18" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setCourseId(String) : void" num="21" count="0" type="method"/>
+            <line num="22" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getUserNetId() : String" num="25" count="0" type="method"/>
+            <line num="26" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setUserNetId(String) : void" num="29" count="0" type="method"/>
+            <line num="30" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getPassword() : String" num="33" count="0" type="method"/>
+            <line num="34" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setPassword(String) : void" num="37" count="0" type="method"/>
+            <line num="38" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getFlag() : String" num="41" count="0" type="method"/>
+            <line num="42" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setFlag(String) : void" num="45" count="0" type="method"/>
+            <line num="46" count="0" type="stmt"/>
+         </file>
+         <file path="/home/zs149/project-team-5/backend/src/main/java/edu/duke/ece651/project/team5/backend/request/TakeAttendanceRequest.java" name="TakeAttendanceRequest.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="4" loc="21" coveredmethods="0" methods="4" elements="8" classes="1" ncloc="19" statements="4" conditionals="0" coveredstatements="0"/>
+            <class name="TakeAttendanceRequest">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="4" coveredmethods="0" methods="4" elements="8" statements="4" conditionals="0" coveredstatements="0"/>
+            </class>
+            <line complexity="1" visibility="public" signature="getSessionId() : String" num="8" count="0" type="method"/>
+            <line num="9" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getNetId() : String" num="11" count="0" type="method"/>
+            <line num="12" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getCourseId() : String" num="14" count="0" type="method"/>
+            <line num="15" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getStatus() : String" num="17" count="0" type="method"/>
+            <line num="18" count="0" type="stmt"/>
+         </file>
+         <file path="/home/zs149/project-team-5/backend/src/main/java/edu/duke/ece651/project/team5/backend/request/GetSessionRequest.java" name="GetSessionRequest.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="1" loc="9" coveredmethods="0" methods="1" elements="2" classes="1" ncloc="7" statements="1" conditionals="0" coveredstatements="0"/>
+            <class name="GetSessionRequest">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="1" coveredmethods="0" methods="1" elements="2" statements="1" conditionals="0" coveredstatements="0"/>
+            </class>
+            <line complexity="1" visibility="public" signature="getCourseId() : String" num="6" count="0" type="method"/>
+            <line num="7" count="0" type="stmt"/>
+         </file>
+         <file path="/home/zs149/project-team-5/backend/src/main/java/edu/duke/ece651/project/team5/backend/request/SignupAndLoginRequest.java" name="SignupAndLoginRequest.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="8" loc="40" coveredmethods="0" methods="8" elements="17" classes="1" ncloc="31" statements="9" conditionals="0" coveredstatements="0"/>
+            <class name="SignupAndLoginRequest">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="8" coveredmethods="0" methods="8" elements="17" statements="9" conditionals="0" coveredstatements="0"/>
+            </class>
+            <line complexity="1" visibility="public" signature="SignupAndLoginRequest()" num="8" count="0" type="method"/>
+            <line complexity="1" visibility="public" signature="SignupAndLoginRequest(String,String,String)" num="11" count="0" type="method"/>
+            <line num="12" count="0" type="stmt"/>
+            <line num="13" count="0" type="stmt"/>
+            <line num="14" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getuserNetId() : String" num="17" count="0" type="method"/>
+            <line num="18" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setuserNetId(String) : void" num="21" count="0" type="method"/>
+            <line num="22" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getPassword() : String" num="25" count="0" type="method"/>
+            <line num="26" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setPassword(String) : void" num="29" count="0" type="method"/>
+            <line num="30" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getFlag() : String" num="33" count="0" type="method"/>
+            <line num="34" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setFlag(String) : void" num="37" count="0" type="method"/>
+            <line num="38" count="0" type="stmt"/>
+         </file>
+         <file path="/home/zs149/project-team-5/backend/src/main/java/edu/duke/ece651/project/team5/backend/request/CourseAllRequest.java" name="CourseAllRequest.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="7" loc="38" coveredmethods="0" methods="7" elements="16" classes="1" ncloc="29" statements="9" conditionals="0" coveredstatements="0"/>
+            <class name="CourseAllRequest">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="7" coveredmethods="0" methods="7" elements="16" statements="9" conditionals="0" coveredstatements="0"/>
+            </class>
+            <line complexity="1" visibility="public" signature="CourseAllRequest(String,String,String)" num="8" count="0" type="method"/>
+            <line num="9" count="0" type="stmt"/>
+            <line num="10" count="0" type="stmt"/>
+            <line num="11" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getUserNetId() : String" num="14" count="0" type="method"/>
+            <line num="15" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setUserNetId(String) : void" num="18" count="0" type="method"/>
+            <line num="19" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getPassword() : String" num="22" count="0" type="method"/>
+            <line num="23" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setPassword(String) : void" num="26" count="0" type="method"/>
+            <line num="27" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getFlag() : String" num="30" count="0" type="method"/>
+            <line num="31" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setFlag(String) : void" num="34" count="0" type="method"/>
+            <line num="35" count="0" type="stmt"/>
+         </file>
+         <file path="/home/zs149/project-team-5/backend/src/main/java/edu/duke/ece651/project/team5/backend/request/CourseEnrollmentOrDropRequest.java" name="CourseEnrollmentOrDropRequest.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="11" loc="58" coveredmethods="0" methods="11" elements="26" classes="1" ncloc="45" statements="15" conditionals="0" coveredstatements="0"/>
+            <class name="CourseEnrollmentOrDropRequest">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="11" coveredmethods="0" methods="11" elements="26" statements="15" conditionals="0" coveredstatements="0"/>
+            </class>
+            <line complexity="1" visibility="public" signature="CourseEnrollmentOrDropRequest(String,String,String,String,String)" num="10" count="0" type="method"/>
+            <line num="11" count="0" type="stmt"/>
+            <line num="12" count="0" type="stmt"/>
+            <line num="13" count="0" type="stmt"/>
+            <line num="14" count="0" type="stmt"/>
+            <line num="15" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getUserNetId() : String" num="18" count="0" type="method"/>
+            <line num="19" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setUserNetId(String) : void" num="22" count="0" type="method"/>
+            <line num="23" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getPassword() : String" num="26" count="0" type="method"/>
+            <line num="27" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setPassword(String) : void" num="30" count="0" type="method"/>
+            <line num="31" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getNetId() : String" num="34" count="0" type="method"/>
+            <line num="35" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setNetId(String) : void" num="38" count="0" type="method"/>
+            <line num="39" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getCourseId() : String" num="42" count="0" type="method"/>
+            <line num="43" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setCourseId(String) : void" num="46" count="0" type="method"/>
+            <line num="47" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getFlag() : String" num="50" count="0" type="method"/>
+            <line num="51" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setFlag(String) : void" num="54" count="0" type="method"/>
+            <line num="55" count="0" type="stmt"/>
+         </file>
+         <file path="/home/zs149/project-team-5/backend/src/main/java/edu/duke/ece651/project/team5/backend/request/CreateSessionRequest.java" name="CreateSessionRequest.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="1" loc="10" coveredmethods="0" methods="1" elements="2" classes="1" ncloc="7" statements="1" conditionals="0" coveredstatements="0"/>
+            <class name="CreateSessionRequest">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="1" coveredmethods="0" methods="1" elements="2" statements="1" conditionals="0" coveredstatements="0"/>
+            </class>
+            <line complexity="1" visibility="public" signature="getCourseId() : String" num="6" count="0" type="method"/>
+            <line num="7" count="0" type="stmt"/>
+         </file>
+         <file path="/home/zs149/project-team-5/backend/src/main/java/edu/duke/ece651/project/team5/backend/request/NewStudentRequest.java" name="NewStudentRequest.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="6" loc="33" coveredmethods="0" methods="6" elements="14" classes="1" ncloc="27" statements="8" conditionals="0" coveredstatements="0"/>
+            <class name="NewStudentRequest">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="6" coveredmethods="0" methods="6" elements="14" statements="8" conditionals="0" coveredstatements="0"/>
+            </class>
+            <line complexity="1" visibility="public" signature="NewStudentRequest()" num="9" count="0" type="method"/>
+            <line complexity="1" visibility="public" signature="NewStudentRequest(String,String,String,String)" num="11" count="0" type="method"/>
+            <line num="12" count="0" type="stmt"/>
+            <line num="13" count="0" type="stmt"/>
+            <line num="14" count="0" type="stmt"/>
+            <line num="15" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getNetId() : String" num="18" count="0" type="method"/>
+            <line num="19" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getLegalName() : String" num="22" count="0" type="method"/>
+            <line num="23" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getEmail() : String" num="26" count="0" type="method"/>
+            <line num="27" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getPhone() : String" num="30" count="0" type="method"/>
+            <line num="31" count="0" type="stmt"/>
+         </file>
+         <file path="/home/zs149/project-team-5/backend/src/main/java/edu/duke/ece651/project/team5/backend/request/CreateCourseRequest.java" name="CreateCourseRequest.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="9" loc="49" coveredmethods="0" methods="9" elements="21" classes="1" ncloc="37" statements="12" conditionals="0" coveredstatements="0"/>
+            <class name="CreateCourseRequest">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="9" coveredmethods="0" methods="9" elements="21" statements="12" conditionals="0" coveredstatements="0"/>
+            </class>
+            <line complexity="1" visibility="public" signature="CreateCourseRequest(String,String,String,String)" num="10" count="0" type="method"/>
+            <line num="11" count="0" type="stmt"/>
+            <line num="12" count="0" type="stmt"/>
+            <line num="13" count="0" type="stmt"/>
+            <line num="14" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getUserNetId() : String" num="17" count="0" type="method"/>
+            <line num="18" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setUserNetId(String) : void" num="21" count="0" type="method"/>
+            <line num="22" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getPassword() : String" num="25" count="0" type="method"/>
+            <line num="26" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setPassword(String) : void" num="29" count="0" type="method"/>
+            <line num="30" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getFlag() : String" num="33" count="0" type="method"/>
+            <line num="34" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setFlag(String) : void" num="37" count="0" type="method"/>
+            <line num="38" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getCourseId() : String" num="41" count="0" type="method"/>
+            <line num="42" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setCourseId(String) : void" num="45" count="0" type="method"/>
+            <line num="46" count="0" type="stmt"/>
+         </file>
+         <file path="/home/zs149/project-team-5/backend/src/main/java/edu/duke/ece651/project/team5/backend/request/StudentUpdateRequest.java" name="StudentUpdateRequest.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="4" loc="22" coveredmethods="0" methods="4" elements="8" classes="1" ncloc="17" statements="4" conditionals="0" coveredstatements="0"/>
+            <class name="StudentUpdateRequest">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="4" coveredmethods="0" methods="4" elements="8" statements="4" conditionals="0" coveredstatements="0"/>
+            </class>
+            <line complexity="1" visibility="public" signature="getNetId() : String" num="7" count="0" type="method"/>
+            <line num="8" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="StudentUpdateRequest()" num="11" count="0" type="method"/>
+            <line complexity="1" visibility="public" signature="getPreferredName() : String" num="14" count="0" type="method"/>
+            <line num="15" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="StudentUpdateRequest(String,String)" num="18" count="0" type="method"/>
+            <line num="19" count="0" type="stmt"/>
+            <line num="20" count="0" type="stmt"/>
+         </file>
+      </package>
+   </project>
+   <testproject name="backend" timestamp="1712268700546">
+      <metrics coveredelements="0" complexity="0" loc="0" methods="0" classes="0" statements="0" packages="0" coveredconditionals="0" coveredmethods="0" elements="0" ncloc="0" files="0" conditionals="0" coveredstatements="0"/>
+   </testproject>
+</coverage>

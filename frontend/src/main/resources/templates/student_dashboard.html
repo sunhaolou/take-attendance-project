@@ -1,0 +1,136 @@
+<!-- <!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <h1>Dashboard</h1>
+        <h2 th:text="${message}"></h2>
+        <h2 text="Please choose one of the options below"></h2>
+        <div>
+            <ul>
+                <li>
+                    <a href="#" th:text="${option1}" th:href="@{ '/student/changeNotiPref'}"></a>
+                </li>
+                <li>
+                    <a href="#" th:text="${option2}" th:href="@{ '/student/report'}"></a>
+                </li>
+            </ul>
+        </div>
+    <div th:if="${error}">
+        <h2 th:text="${error}"></h2>
+    </div>
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            position: relative; /* 将容器设置为相对定位 */
+            text-align: center;
+            max-width: 700px;
+            min-width: 250px;
+            height: auto;
+            min-height: 500px;
+            padding: 30px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            font-size: 36px;
+        }
+
+        h2 {
+            color: #666;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            display: inline-block; /* 将列表项设置为行内块元素 */
+        }
+
+        a {
+            text-decoration: none;  /* 去掉链接的下划线 */
+            color: #007bff;  /* 设置链接的颜色 */
+            padding: 8px 16px; /* 增大链接的内边距 */
+            border: 2px solid #007bff; /* 增大链接的边框 */
+            border-radius: 5px; /* 增大链接的圆角 */
+            transition: all 0.3s ease; /* 设置链接的过渡效果 */
+            /* 设置字体大小 */
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        a:hover { /* 设置链接的悬停样式 */
+            background-color: #007bff; /* 设置链接的背景颜色 */
+            color: #fff; /* 设置链接的字体颜色 */
+        }
+
+        .error {
+            color: red;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        img {
+            position: absolute; /* 设置绝对定位 */
+            top: 0; /* 距离顶部的距离 */
+            left: 0; /* 距离左侧的距离 */
+            z-index: 0; /* 设置 z-index 属性，使其位于所有其他内容的底部 */
+        }
+    </style>
+</head>
+
+<body>
+    <img src="https://i.postimg.cc/L8HPwwjc/duke-university-wordmark-navyblue-012169.png" width="400px" style="display: block; margin: 0 auto;"/>
+    <div class="container">
+        <h1>Dashboard</h1>
+        <h2 th:text="${message}"></h2>
+        <h2>Please choose one of the options below:</h2>
+        <div>
+            <ul>
+                <li>
+                    <a href="#" th:text="${option1}" th:href="@{ '/student/changeNotiPref'}"></a>
+                </li>
+                <li>
+                    <a href="#" th:text="${option2}" th:href="@{ '/student/report'}"></a>
+                </li>
+            </ul>
+        </div>
+        <div th:if="${error}" class="error">
+            <h2 th:text="${error}"></h2>
+        </div>
+    </div>
+</body>
+
+</html>

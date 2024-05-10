@@ -1,0 +1,51 @@
+Notification Preference table created
+Notification Preference table created
+Please enter the admin's username
+Please enter the admin's password
+Please choose the professor you want to manipulate:
+1. afsaneh
+2. javier
+Would you like to choose a course or create a new one?
+1. choose course and section
+2. create new one
+3. choose another professor
+4. exit
+Please choose the course and the section
+1. ECE651_1
+What would like to do?
+1. update a student's enrollment status
+2. update this course or section
+3. delete this course
+4. delete this section
+5. Back to main menu
+Would you like to choose a course or create a new one?
+1. choose course and section
+2. create new one
+3. choose another professor
+4. exit
+Please choose the course and the section
+1. ECE651_1
+What would like to do?
+1. update a student's enrollment status
+2. update this course or section
+3. delete this course
+4. delete this section
+5. Back to main menu
+Would you like to choose a course or create a new one?
+1. choose course and section
+2. create new one
+3. choose another professor
+4. exit
+Please choose the professor you want to manipulate:
+1. afsaneh
+2. javier
+3. Jacky Tan
+4. Tailor Swift
+5. Lara Hello Jean
+6. name is
+Would you like to choose a course or create a new one?
+1. choose course and section
+2. create new one
+3. choose another professor
+4. exit
+Successfully exit

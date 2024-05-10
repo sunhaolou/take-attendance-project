@@ -1,0 +1,191 @@
+<!-- <!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Report</title>
+</head>
+
+<body>
+    <h1>Report </h1>
+    <h2 th:text="${message}"></h2>
+    <h2 text="Here is your report"></h2>
+    <div>
+        <h3 th:text="'Your score is  ' + ${score}"></h3>
+        <ul>
+            <li th:each="report : ${reports}">
+                <p th:text="'section: ' + ${report.getCourseSectionId()}">
+                <p th:text="'You were: ' + ${report.getStatus()}">
+                <p th:text="'time: ' + ${report.getTime()}">
+
+                </p>
+            </li>
+
+        </ul>
+        <form th:action="@{/student/exportPdfReport}" method="get">
+            <button type="submit">Export Pdf Report</button>
+        </form>
+        <form th:action="@{/student/exportJsonReport}" method="get">
+            <button type="submit">Export Json Report</button>
+        </form>
+        <form th:action="@{/student/exportXmlReport}" method="get">
+            <button type="submit">Export XML Report</button>
+        </form>
+
+    </div>
+    <div th:if="${error}">
+        <h2 th:text="${error}"></h2>
+    </div>
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            position: relative; /* 将容器设置为相对定位 */
+            text-align: center;
+            max-width: 700px;
+            min-width: 250px;
+            height: auto;
+            min-height: 500px;
+            padding: 30px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #666;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        p {
+            color: #333;
+            font-size: medium;
+            margin: 5px 0; 
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            display: inline-block; /* 将列表项设置为行内块元素 */
+        }
+
+        .pdf-button {
+            position: absolute; /* 将按钮设置为绝对定位 */
+            bottom: 20px; /* 距离底部的距离 */
+            left: 50%; /* 水平居中 */
+            transform: translateX(-50%); /* 居中对齐 */
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            outline: none;
+        }
+
+        .json-button {
+            position: absolute; /* 将按钮设置为绝对定位 */
+            bottom: 60px; /* 距离底部的距离 */
+            left: 50%; /* 水平居中 */
+            transform: translateX(-50%); /* 居中对齐 */
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            outline: none;
+        }
+
+        .xml-button {
+            position: absolute; /* 将按钮设置为绝对定位 */
+            bottom: 100px; /* 距离底部的距离 */
+            left: 50%; /* 水平居中 */
+            transform: translateX(-50%); /* 居中对齐 */
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            outline: none;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .error {
+            color: red;
+            text-align: center;
+            margin-top: 20px;
+        }
+        img {
+            position: absolute; /* 设置绝对定位 */
+            top: 0; /* 距离顶部的距离 */
+            left: 0; /* 距离左侧的距离 */
+            z-index: 0; /* 设置 z-index 属性，使其位于所有其他内容的底部 */
+        }
+    </style>
+</head>
+
+<body>
+    <img src="https://i.postimg.cc/L8HPwwjc/duke-university-wordmark-navyblue-012169.png" width="400px" style="display: block; margin: 0 auto;"/>
+    <div class="container">
+        <h2 th:text="${message}"></h2>
+        <h1>Attendance Report</h1>
+        <div>
+            <h3 th:text="'Your score is: ' + ${score}"></h3>
+            <ul>
+                <li th:each="report : ${reports}">
+                    <p th:text="'Section: ' + ${report.getCourseSectionId()}"></p>
+                    <p th:text="'Time: ' + ${report.getTime()}"></p>
+                    <p th:text="'Status: ' + ${report.getStatus()}"></p>
+                </li>
+            </ul>
+            <form th:action="@{/student/exportPdfReport}" method="get">
+                <button type="submit" class="pdf-button">Export Pdf Report</button>
+            </form>
+            <form th:action="@{/student/exportJsonReport}" method="get">
+                <button type="submit" class="json-button">Export Json Report</button>
+            </form>
+            <form th:action="@{/student/exportXmlReport}" method="get">
+                <button type="submit" class="xml-button">Export XML Report</button>
+            </form>
+        </div>
+        <div th:if="${error}" class="error">
+            <h2 th:text="${error}"></h2>
+        </div>
+    </div>
+</body>
+
+</html>

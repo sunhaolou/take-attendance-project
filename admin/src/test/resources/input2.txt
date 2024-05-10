@@ -1,0 +1,10 @@
+admin
+admin
+2
+1
+
+sdac
+src/resources/noPhone.csv
+src/test/resources/wrongPhone.csv
+src/test/resources/complete.csv
+3

@@ -1,0 +1,373 @@
+Notification Preference table created
+Welcome to the admin app!
+===============================
+Please enter admin's username:
+Please enter admin's password:
+Invalid username or password, please try again. You have 4 attempts left.
+===============================
+Please enter admin's username:
+Please enter admin's password:
+Invalid username or password, please try again. You have 3 attempts left.
+===============================
+Please enter admin's username:
+Please enter admin's password:
+Login successfully!
+===============================
+Welcome to the admin dashboard
+===============================
+Please choose the input method (enter the number):
+1. Manual input
+2. Batch input by importing files
+3. Exit
+Please choose the file type (enter the number):
+1. Student file
+2. Professor file
+3. Back to the main menu
+===============================
+Welcome to the admin dashboard
+===============================
+Please choose the input method (enter the number):
+1. Manual input
+2. Batch input by importing files
+3. Exit
+===============================
+Manual Input Mode, please choose the option below:
+===============================
+1. Add student
+2. Add professor
+3. Modify student
+4. Modify professor
+5. Back to main menu
+===============================
+Welcome to the admin dashboard
+===============================
+Please choose the input method (enter the number):
+1. Manual input
+2. Batch input by importing files
+3. Exit
+===============================
+Manual Input Mode, please choose the option below:
+===============================
+1. Add student
+2. Add professor
+3. Modify student
+4. Modify professor
+5. Back to main menu
+Enter netId: 
+Enter password: 
+Enter legal name: 
+Enter email: 
+Enter phone number: 
+Data inserted successfully
+===============================
+Welcome to the admin dashboard
+===============================
+Please choose the input method (enter the number):
+1. Manual input
+2. Batch input by importing files
+3. Exit
+===============================
+Manual Input Mode, please choose the option below:
+===============================
+1. Add student
+2. Add professor
+3. Modify student
+4. Modify professor
+5. Back to main menu
+===============================
+Manual Input Mode, please choose the option below:
+===============================
+1. Update student's preferred name
+2. Update student's email
+3. Update student's phone number
+4. Update student's password
+5. Delete student
+6. Back
+Enter the netId: 
+Data retrieved successfully
+Data retrieved successfully
+Enter student's new preferred name: 
+Data updated successfully
+===============================
+Welcome to the admin dashboard
+===============================
+Please choose the input method (enter the number):
+1. Manual input
+2. Batch input by importing files
+3. Exit
+===============================
+Manual Input Mode, please choose the option below:
+===============================
+1. Add student
+2. Add professor
+3. Modify student
+4. Modify professor
+5. Back to main menu
+===============================
+Manual Input Mode, please choose the option below:
+===============================
+1. Update student's preferred name
+2. Update student's email
+3. Update student's phone number
+4. Update student's password
+5. Delete student
+6. Back
+Enter the netId: 
+Data retrieved successfully
+Data retrieved successfully
+Enter the new email: 
+Data updated successfully
+===============================
+Welcome to the admin dashboard
+===============================
+Please choose the input method (enter the number):
+1. Manual input
+2. Batch input by importing files
+3. Exit
+===============================
+Manual Input Mode, please choose the option below:
+===============================
+1. Add student
+2. Add professor
+3. Modify student
+4. Modify professor
+5. Back to main menu
+===============================
+Manual Input Mode, please choose the option below:
+===============================
+1. Update student's preferred name
+2. Update student's email
+3. Update student's phone number
+4. Update student's password
+5. Delete student
+6. Back
+Enter the netId: 
+Data retrieved successfully
+Data retrieved successfully
+Enter the new phone number: 
+Invalid phone number format.
+===============================
+Welcome to the admin dashboard
+===============================
+Please choose the input method (enter the number):
+1. Manual input
+2. Batch input by importing files
+3. Exit
+===============================
+Manual Input Mode, please choose the option below:
+===============================
+1. Add student
+2. Add professor
+3. Modify student
+4. Modify professor
+5. Back to main menu
+===============================
+Manual Input Mode, please choose the option below:
+===============================
+1. Update student's preferred name
+2. Update student's email
+3. Update student's phone number
+4. Update student's password
+5. Delete student
+6. Back
+Enter the netId: 
+Data retrieved successfully
+Data retrieved successfully
+Enter new password: 
+Data updated successfully
+===============================
+Welcome to the admin dashboard
+===============================
+Please choose the input method (enter the number):
+1. Manual input
+2. Batch input by importing files
+3. Exit
+===============================
+Manual Input Mode, please choose the option below:
+===============================
+1. Add student
+2. Add professor
+3. Modify student
+4. Modify professor
+5. Back to main menu
+===============================
+Manual Input Mode, please choose the option below:
+===============================
+1. Update student's preferred name
+2. Update student's email
+3. Update student's phone number
+4. Update student's password
+5. Delete student
+6. Back
+Enter the netId: 
+Data retrieved successfully
+Data retrieved successfully
+Are you sure you want to delete this person? (Y/N)
+Invalid input. Please enter Y or N.
+Are you sure you want to delete this person? (Y/N)
+===============================
+Welcome to the admin dashboard
+===============================
+Please choose the input method (enter the number):
+1. Manual input
+2. Batch input by importing files
+3. Exit
+===============================
+Manual Input Mode, please choose the option below:
+===============================
+1. Add student
+2. Add professor
+3. Modify student
+4. Modify professor
+5. Back to main menu
+===============================
+Manual Input Mode, please choose the option below:
+===============================
+1. Update student's preferred name
+2. Update student's email
+3. Update student's phone number
+4. Update student's password
+5. Delete student
+6. Back
+Enter the netId: 
+Data retrieved successfully
+Data retrieved successfully
+Are you sure you want to delete this person? (Y/N)
+Data deleted successfully
+===============================
+Welcome to the admin dashboard
+===============================
+Please choose the input method (enter the number):
+1. Manual input
+2. Batch input by importing files
+3. Exit
+===============================
+Manual Input Mode, please choose the option below:
+===============================
+1. Add student
+2. Add professor
+3. Modify student
+4. Modify professor
+5. Back to main menu
+Enter netId: 
+Enter password: 
+Enter legal name: 
+Enter email: 
+Enter phone number: 
+Data inserted successfully
+===============================
+Welcome to the admin dashboard
+===============================
+Please choose the input method (enter the number):
+1. Manual input
+2. Batch input by importing files
+3. Exit
+===============================
+Manual Input Mode, please choose the option below:
+===============================
+1. Add student
+2. Add professor
+3. Modify student
+4. Modify professor
+5. Back to main menu
+===============================
+Manual Input Mode, please choose the option below:
+===============================
+1. Update professor's password
+2. Update professor's email
+3. Update professor's phone number
+4. Delete professor
+5. Back
+Enter the netId: 
+Data retrieved successfully
+Enter new password: 
+Data updated successfully
+===============================
+Welcome to the admin dashboard
+===============================
+Please choose the input method (enter the number):
+1. Manual input
+2. Batch input by importing files
+3. Exit
+===============================
+Manual Input Mode, please choose the option below:
+===============================
+1. Add student
+2. Add professor
+3. Modify student
+4. Modify professor
+5. Back to main menu
+===============================
+Manual Input Mode, please choose the option below:
+===============================
+1. Update professor's password
+2. Update professor's email
+3. Update professor's phone number
+4. Delete professor
+5. Back
+Enter the netId: 
+Data retrieved successfully
+Enter the new email: 
+Data updated successfully
+===============================
+Welcome to the admin dashboard
+===============================
+Please choose the input method (enter the number):
+1. Manual input
+2. Batch input by importing files
+3. Exit
+===============================
+Manual Input Mode, please choose the option below:
+===============================
+1. Add student
+2. Add professor
+3. Modify student
+4. Modify professor
+5. Back to main menu
+===============================
+Manual Input Mode, please choose the option below:
+===============================
+1. Update professor's password
+2. Update professor's email
+3. Update professor's phone number
+4. Delete professor
+5. Back
+Enter the netId: 
+Data retrieved successfully
+Enter the new phone number: 
+Invalid phone number format.
+===============================
+Welcome to the admin dashboard
+===============================
+Please choose the input method (enter the number):
+1. Manual input
+2. Batch input by importing files
+3. Exit
+===============================
+Manual Input Mode, please choose the option below:
+===============================
+1. Add student
+2. Add professor
+3. Modify student
+4. Modify professor
+5. Back to main menu
+===============================
+Manual Input Mode, please choose the option below:
+===============================
+1. Update professor's password
+2. Update professor's email
+3. Update professor's phone number
+4. Delete professor
+5. Back
+Enter the netId: 
+Data retrieved successfully
+Are you sure you want to delete this person? (Y/N)
+Data deleted successfully
+===============================
+Welcome to the admin dashboard
+===============================
+Please choose the input method (enter the number):
+1. Manual input
+2. Batch input by importing files
+3. Exit
+Successfully exit!

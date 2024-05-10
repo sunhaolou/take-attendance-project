@@ -1,0 +1,127 @@
+Notification Preference table created
+Notification Preference table created
+Please enter the admin's username
+Please enter the admin's password
+Please choose the professor you want to manipulate:
+1. afsaneh
+2. javier
+Would you like to choose a course or create a new one?
+1. choose course and section
+2. create new one
+3. choose another professor
+4. exit
+Please choose the course and the section
+1. ECE651_1
+What would like to do?
+1. update a student's enrollment status
+2. update this course or section
+3. delete this course
+4. delete this section
+5. Back to main menu
+Would you like to choose a course or create a new one?
+1. choose course and section
+2. create new one
+3. choose another professor
+4. exit
+Please choose the professor you want to manipulate:
+1. afsaneh
+2. javier
+Would you like to choose a course or create a new one?
+1. choose course and section
+2. create new one
+3. choose another professor
+4. exit
+Would you like to create course by using input file or manually?
+1. manually
+2. input
+Please enter the id of the new course
+Please enter the description of the new course
+Please enter the section id
+Please enter the lecture id
+Please enter the time for this lecture. Format like (2024-04-11 12:30:45)
+Timestamp format must be yyyy-mm-dd hh:mm:ss[.fffffffff]
+Please enter the id of the new course
+Please enter the description of the new course
+Please enter the section id
+Please enter the lecture id
+Please enter the time for this lecture. Format like (2024-04-11 12:30:45)
+Do you want to add a new lecture?
+1. Yes
+2. No
+Do you want to add a new instructor?
+1. Yes
+2. No
+Please choose the professor:
+1. afsaneh ar123
+2. javier hp123
+Do you want to add a new instructor?
+1. Yes
+2. No
+Please choose the student:
+1. geng hg161
+2. shen zs149
+3. hsieh yh384
+4. sun hs392
+5. nguyen hhn3
+Do you want to add a new student?
+1. Yes
+2. No
+Please choose the student:
+1. geng hg161
+2. shen zs149
+3. hsieh yh384
+4. sun hs392
+5. nguyen hhn3
+Do you want to add a new student?
+1. Yes
+2. No
+Please choose the student:
+1. geng hg161
+2. shen zs149
+3. hsieh yh384
+4. sun hs392
+5. nguyen hhn3
+Do you want to add a new student?
+1. Yes
+2. No
+Do you want to add a new section?
+1. Yes
+2. No
+Course and section added
+Would you like to choose a course or create a new one?
+1. choose course and section
+2. create new one
+3. choose another professor
+4. exit
+Please choose the course and the section
+1. h12_hiep12
+2. ECE651_2
+What would like to do?
+1. update a student's enrollment status
+2. update this course or section
+3. delete this course
+4. delete this section
+5. Back to main menu
+Do you sure you are going to delete this section?
+1. Yes
+2. No
+section deleted
+Would you like to choose a course or create a new one?
+1. choose course and section
+2. create new one
+3. choose another professor
+4. exit
+Please choose the course and the section
+1. ECE651_2
+What would like to do?
+1. update a student's enrollment status
+2. update this course or section
+3. delete this course
+4. delete this section
+5. Back to main menu
+Would you like to choose a course or create a new one?
+1. choose course and section
+2. create new one
+3. choose another professor
+4. exit
+Successfully exit

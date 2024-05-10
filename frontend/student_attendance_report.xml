@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<StudentAttendance>
+    <Score>90</Score>
+    <Session time="ECE156_1">2024-04-15 12:00:00.0</Session>
+    <Session time="ECE156_1">2024-04-16 12:00:00.0</Session>
+</StudentAttendance>

@@ -1,0 +1,84 @@
+Notification Preference table created
+Notification Preference table created
+Please enter the admin's username
+Please enter the admin's password
+Please choose the professor you want to manipulate:
+1. afsaneh
+2. javier
+Would you like to choose a course or create a new one?
+1. choose course and section
+2. create new one
+3. choose another professor
+4. exit
+Please choose the course and the section
+1. ECE651_1
+What would like to do?
+1. update a student's enrollment status
+2. update this course or section
+3. delete this course
+4. delete this section
+5. Back to main menu
+Would like to enroll a new student or drop a exist one?
+1. Enroll a student
+2. Drop a student
+Please choose the student:
+1. geng hg161
+2. shen zs149
+3. hsieh yh384
+4. sun hs392
+5. nguyen hhn3
+Would like to enroll this student to the section?
+1. Yes
+2. No
+What would like to do?
+1. update a student's enrollment status
+2. update this course or section
+3. delete this course
+4. delete this section
+5. Back to main menu
+Would like to enroll a new student or drop a exist one?
+1. Enroll a student
+2. Drop a student
+Please choose the student:
+1. shen zs149
+2. geng hg161
+Would like to drop this student from the section?
+1. Yes
+2. No
+The input should be a number between 1 and 2. Please try again:
+What would like to do?
+1. update a student's enrollment status
+2. update this course or section
+3. delete this course
+4. delete this section
+5. Back to main menu
+Would you like to choose a course or create a new one?
+1. choose course and section
+2. create new one
+3. choose another professor
+4. exit
+Would you like to create course by using input file or manually?
+1. manually
+2. input
+Please enter path for the roster section file (eg. app/src/test/resources/ECE651.csv)
+Please enter path for the roster session file (eg. app/src/test/resources/ECE651.csv)
+csv file is invalid - contain unrecognized information
+src (Is a directory)
+Would you like to choose a course or create a new one?
+1. choose course and section
+2. create new one
+3. choose another professor
+4. exit
+Would you like to create course by using input file or manually?
+1. manually
+2. input
+Please enter path for the roster section file (eg. app/src/test/resources/ECE651.csv)
+Please enter path for the roster session file (eg. app/src/test/resources/ECE651.csv)
+src/main/resources/courseEnrollments.csv (No such file or directory)
+Cannot invoke "edu.duke.ece651.project.team5.shared.model.Section.addSession(edu.duke.ece651.project.team5.shared.model.Session)" because "section" is null
+Would you like to choose a course or create a new one?
+1. choose course and section
+2. create new one
+3. choose another professor
+4. exit
+Successfully exit

@@ -1,0 +1,90 @@
+Notification Preference table created
+Welcome to the admin app!
+===============================
+Please enter admin's username:
+Please enter admin's password:
+Login successfully!
+===============================
+Welcome to the admin dashboard
+===============================
+Please choose the input method (enter the number):
+1. Manual input
+2. Batch input by importing files
+3. Exit
+===============================
+Manual Input Mode, please choose the option below:
+===============================
+1. Add student
+2. Add professor
+3. Modify student
+4. Modify professor
+5. Back to main menu
+Enter netId: 
+Enter password: 
+Enter legal name: 
+Enter email: 
+Enter phone number: 
+ERROR: duplicate key value violates unique constraint "students_pkey"
+  Detail: Key (netid)=(h123) already exists.
+===============================
+Welcome to the admin dashboard
+===============================
+Please choose the input method (enter the number):
+1. Manual input
+2. Batch input by importing files
+3. Exit
+===============================
+Manual Input Mode, please choose the option below:
+===============================
+1. Add student
+2. Add professor
+3. Modify student
+4. Modify professor
+5. Back to main menu
+===============================
+Manual Input Mode, please choose the option below:
+===============================
+1. Update student's preferred name
+2. Update student's email
+3. Update student's phone number
+4. Update student's password
+5. Delete student
+6. Back
+Enter the netId: 
+The NetID not found.
+Enter the netId: 
+Enter student's new preferred name: 
+===============================
+Welcome to the admin dashboard
+===============================
+Please choose the input method (enter the number):
+1. Manual input
+2. Batch input by importing files
+3. Exit
+===============================
+Manual Input Mode, please choose the option below:
+===============================
+1. Add student
+2. Add professor
+3. Modify student
+4. Modify professor
+5. Back to main menu
+===============================
+Manual Input Mode, please choose the option below:
+===============================
+1. Update student's preferred name
+2. Update student's email
+3. Update student's phone number
+4. Update student's password
+5. Delete student
+6. Back
+Enter the netId: 
+Enter student's new preferred name: 
+===============================
+Welcome to the admin dashboard
+===============================
+Please choose the input method (enter the number):
+1. Manual input
+2. Batch input by importing files
+3. Exit
+Successfully exit!

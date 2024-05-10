@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding: 20px;
+        }
+
+        .dashboard-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="dashboard-header">
+        <h1>Welcome to Your Student Dashboard, <span th:text="${name}">User</span>!</h1>
+        <a href="/logout" class="btn btn-primary">Logout</a>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            Important Information
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Latest Updates</h5>
+            <p class="card-text">Here's the latest news related to your interests!</p>
+            <a href="#" class="btn btn-primary">Learn more</a>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">Statistics</div>
+                <div class="card-body">
+                    <h5 class="card-title">View Your Activity</h5>
+                    <p class="card-text">Check out your recent activity and performance metrics.</p>
+                    <a href="#" class="btn btn-warning">View Stats</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">Profile Settings</div>
+                <div class="card-body">
+                    <h5 class="card-title">Manage Your Account</h5>
+                    <p class="card-text">Update your profile settings and preferences.</p>
+                    <a href="#" class="btn btn-info">Edit Profile</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

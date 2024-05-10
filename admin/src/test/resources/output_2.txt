@@ -1,0 +1,342 @@
+What would you like to do? (Please enter the number)
+1. Sign up
+2. Login
+Login
+Please enter the username
+Please enter the password
+Invalid username.
+What would you like to do? (Please enter the number)
+1. Sign up
+2. Login
+Sign Up
+Please enter the username
+Please enter the password
+Successfully Sign up.
+Login
+Please enter the username
+Please enter the password
+Invalid username.
+What would you like to do? (Please enter the number)
+1. Sign up
+2. Login
+Login
+Please enter the username
+Please enter the password
+Successfully Login.
+Would you like to choose a course or create a new one?
+1. choose course
+2. create new one
+There are no existing course to choose from. Please create a course first.
+Please input the name of your new course
+Please enter path for the roster csv file (eg. app/src/test/resources/ECE651.csv)
+error in reading dafa (No such file or directory)
+Please input the name of your new course
+Course name can not be empty. Please enter a new name.
+Please input the name of your new course
+Please enter path for the roster csv file (eg. app/src/test/resources/ECE651.csv)
+Successfully registered course ece123
+Would you like to choose a course or create a new one?
+1. choose course
+2. create new one
+Choose one course from following
+1. "ece123"
+What would you like to do for course ece123 ?
+1. take attendance
+2. browse and select one student
+3. search for a student
+4. enroll new student to the course
+5. select or create another course
+6. export attendence record for all students
+7. exit the program
+All students:
+1. Name: Jacky Tan, NetId: Jacky123
+2. Name: Lara Hello Jean, NetId: Lara123
+3. Name: Tailor Swift, NetId: Taylor123
+Please choose one student from above
+What would you like to change for the student?
+1. Update ths student's preferred name
+2. Update this student's enrollment status
+3. Update attendance for this student
+There are no previous attendance record for the class. Please choose another action.
+What would you like to do for course ece123 ?
+1. take attendance
+2. browse and select one student
+3. search for a student
+4. enroll new student to the course
+5. select or create another course
+6. export attendence record for all students
+7. exit the program
+Name: Jacky Tan, NetId: Jacky123
+1. present
+2. tardy
+3. absent
+Successfully update attendance for Jacky123
+Name: Lara Hello Jean, NetId: Lara123
+1. present
+2. tardy
+3. absent
+Successfully update attendance for Lara123
+Name: Tailor Swift, NetId: Taylor123
+1. present
+2. tardy
+3. absent
+Successfully update attendance for Taylor123
+What would you like to do for course ece123 ?
+1. take attendance
+2. browse and select one student
+3. search for a student
+4. enroll new student to the course
+5. select or create another course
+6. export attendence record for all students
+7. exit the program
+All students:
+1. Name: Jacky Tan, NetId: Jacky123
+2. Name: Lara Hello Jean, NetId: Lara123
+3. Name: Tailor Swift, NetId: Taylor123
+Please choose one student from above
+What would you like to change for the student?
+1. Update ths student's preferred name
+2. Update this student's enrollment status
+3. Update attendance for this student
+Please input the preferred name
+Input error - Name should contain both first name and last name. Please try again.
+Please input the preferred name
+Input error - Name should contain both first name and last name. Please try again.
+Please input the preferred name
+Name successfully updated
+What would you like to do for course ece123 ?
+1. take attendance
+2. browse and select one student
+3. search for a student
+4. enroll new student to the course
+5. select or create another course
+6. export attendence record for all students
+7. exit the program
+Please enter the student's name
+There are no enrolled student named Jackie found. Please try another action.
+What would you like to do for course ece123 ?
+1. take attendance
+2. browse and select one student
+3. search for a student
+4. enroll new student to the course
+5. select or create another course
+6. export attendence record for all students
+7. exit the program
+Please enter the student's name
+The students with the name are following, please choose one
+1. Name: Jacky Tan, NetId: Jacky123
+What would you like to change for the student?
+1. Update ths student's preferred name
+2. Update this student's enrollment status
+3. Update attendance for this student
+The input should be between 1 and 3. Please try again:
+The input should be between 1 and 3. Please try again:
+The input should be a number between 1 and 3. Please try again:
+What's the enrollment status? (enter drop or enroll)
+Please enter drop or enroll.
+What's the enrollment status? (enter drop or enroll)
+What would you like to do for course ece123 ?
+1. take attendance
+2. browse and select one student
+3. search for a student
+4. enroll new student to the course
+5. select or create another course
+6. export attendence record for all students
+7. exit the program
+All students:
+1. Name: Jacky Tan, NetId: Jacky123
+2. Name: Lara Hello Jean, NetId: Lara123
+3. Name: Tailor Swift, NetId: Taylor123
+Please choose one student from above
+What would you like to change for the student?
+1. Update ths student's preferred name
+2. Update this student's enrollment status
+3. Update attendance for this student
+What's the enrollment status? (enter drop or enroll)
+Student dropped successfully
+What would you like to do for course ece123 ?
+1. take attendance
+2. browse and select one student
+3. search for a student
+4. enroll new student to the course
+5. select or create another course
+6. export attendence record for all students
+7. exit the program
+All students:
+1. Name: Lara Hello Jean, NetId: Lara123
+2. Name: Tailor Swift, NetId: Taylor123
+Please choose one student from above
+What would you like to change for the student?
+1. Update ths student's preferred name
+2. Update this student's enrollment status
+3. Update attendance for this student
+Please input the preferred name
+Name successfully updated
+What would you like to do for course ece123 ?
+1. take attendance
+2. browse and select one student
+3. search for a student
+4. enroll new student to the course
+5. select or create another course
+6. export attendence record for all students
+7. exit the program
+Please input the name of the new student
+Input error - Name should contain both first name and last name. Please try again.
+Please input the name of the new student
+Input error - Name should contain both first name and last name. Please try again.
+Please input the name of the new student
+Please input the netID of the new student
+Input error - NetID should contain letter and number. Please try again.
+Please input the netID of the new student
+Input error - NetID should contain letter and number. Please try again.
+Please input the netID of the new student
+Please input the email of the new student
+Input error - email address is not valid. Please try again.
+Please input the email of the new student
+Input error - email address is not valid. Please try again.
+Please input the email of the new student
+What would you like to do for course ece123 ?
+1. take attendance
+2. browse and select one student
+3. search for a student
+4. enroll new student to the course
+5. select or create another course
+6. export attendence record for all students
+7. exit the program
+Name: Hiep Hiep, NetId: hiep123
+1. present
+2. tardy
+3. absent
+Successfully update attendance for hiep123
+Name: Lara Hello Jean, NetId: Lara123
+1. present
+2. tardy
+3. absent
+Successfully update attendance for Lara123
+Name: Taylor S, NetId: Taylor123
+1. present
+2. tardy
+3. absent
+Successfully update attendance for Taylor123
+What would you like to do for course ece123 ?
+1. take attendance
+2. browse and select one student
+3. search for a student
+4. enroll new student to the course
+5. select or create another course
+6. export attendence record for all students
+7. exit the program
+Would you like to choose a course or create a new one?
+1. choose course
+2. create new one
+Please input the name of your new course
+Please enter path for the roster csv file (eg. app/src/test/resources/ECE651.csv)
+Successfully registered course ece012
+Would you like to choose a course or create a new one?
+1. choose course
+2. create new one
+Choose one course from following
+1. "ece012"
+2. "ece123"
+What would you like to do for course ece012 ?
+1. take attendance
+2. browse and select one student
+3. search for a student
+4. enroll new student to the course
+5. select or create another course
+6. export attendence record for all students
+7. exit the program
+All students:
+1. Name: Alice Wang, NetId: AliceW12
+Please choose one student from above
+What would you like to change for the student?
+1. Update ths student's preferred name
+2. Update this student's enrollment status
+3. Update attendance for this student
+What's the enrollment status? (enter drop or enroll)
+Student dropped successfully
+What would you like to do for course ece012 ?
+1. take attendance
+2. browse and select one student
+3. search for a student
+4. enroll new student to the course
+5. select or create another course
+6. export attendence record for all students
+7. exit the program
+There are no enrolled student found. Please try another action.
+What would you like to do for course ece012 ?
+1. take attendance
+2. browse and select one student
+3. search for a student
+4. enroll new student to the course
+5. select or create another course
+6. export attendence record for all students
+7. exit the program
+Please input the name of the new student
+Please input the netID of the new student
+Please input the email of the new student
+What would you like to do for course ece012 ?
+1. take attendance
+2. browse and select one student
+3. search for a student
+4. enroll new student to the course
+5. select or create another course
+6. export attendence record for all students
+7. exit the program
+Please enter the student's name
+The students with the name are following, please choose one
+1. Name: Hiep Hiep, NetId: hiep123
+What would you like to change for the student?
+1. Update ths student's preferred name
+2. Update this student's enrollment status
+3. Update attendance for this student
+Please input the preferred name
+Name successfully updated
+What would you like to do for course ece012 ?
+1. take attendance
+2. browse and select one student
+3. search for a student
+4. enroll new student to the course
+5. select or create another course
+6. export attendence record for all students
+7. exit the program
+Please input the name of the new student
+Please input the netID of the new student
+Please input the email of the new student
+What would you like to do for course ece012 ?
+1. take attendance
+2. browse and select one student
+3. search for a student
+4. enroll new student to the course
+5. select or create another course
+6. export attendence record for all students
+7. exit the program
+Please enter the student's name
+The students with the name are following, please choose one
+1. Name: Another Tailor, NetId: tai123
+What would you like to change for the student?
+1. Update ths student's preferred name
+2. Update this student's enrollment status
+3. Update attendance for this student
+What's the enrollment status? (enter drop or enroll)
+What would you like to do for course ece012 ?
+1. take attendance
+2. browse and select one student
+3. search for a student
+4. enroll new student to the course
+5. select or create another course
+6. export attendence record for all students
+7. exit the program
+What format do you want to export?
+1. PDF
+2. JSON
+Sucessfully export
+What would you like to do for course ece012 ?
+1. take attendance
+2. browse and select one student
+3. search for a student
+4. enroll new student to the course
+5. select or create another course
+6. export attendence record for all students
+7. exit the program
+Successfully exit

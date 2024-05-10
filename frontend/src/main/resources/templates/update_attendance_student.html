@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Attendance</title>
+</head>
+
+<body>
+    <h1>Attendance</h1>
+    <h1 th:text="${sessionId}"></h1>
+    <div>
+        <p>Students:</p>
+
+        <form th:action="@{/attendance(sectionId=${sectionId},
+                sessionId=${sessionId},
+                netId=${netId})}" method="post">
+            <span th:text="${netId}"></span>
+            <select name="status">
+                <option value="PRESENT">Present</option>
+                <option value="TARDY">Tardy</option>
+                <option value="ABSENT">Absent</option>
+            </select>
+            </p>
+            <button type="submit">Submit</button>
+        </form>
+
+    </div>
+    <div th:if="${error}">
+        <h2 th:text="${error}"></h2>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,134 @@
+<!-- <!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Notification</title>
+</head>
+
+<body>
+    <h1>Notification Preference</h1>
+    <div th:if="${message}">
+        <h2 th:text="'Your Notification Preference for ' + ${sectionId} + ' is: '"></h2>
+        <h2 th:text="${notiPref}"></h2>
+        <h2 text="Please select the method you would like to change it to"></h2>
+        <form th:action="@{/student/updateNotiPref(sectionId=${sectionId})}" method="post">
+            <h2>Please select the method you would like to change it to:</h2>
+            <div>
+                <select name="newNotiPref">
+                    <option value="EMAIL">Email</option>
+                    <option value="NOREMINDER">No Reminder</option>
+                </select>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <div th:if="${error}">
+        <h2 th:text="${error}"></h2>
+    </div>
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Notification</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .container {
+            position: relative; /* 将容器设置为相对定位 */
+            text-align: center;
+            max-width: 700px;
+            min-width: 250px;
+            height: auto;
+            min-height: 500px;
+            padding: 30px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        select {
+            padding: 10px;
+            width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            outline: none;
+        }
+
+        button {
+            position: absolute; /* 将按钮设置为绝对定位 */
+            bottom: 20px; /* 距离底部的距离 */
+            left: 50%; /* 水平居中 */
+            transform: translateX(-50%); /* 居中对齐 */
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            outline: none;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .error {
+            color: red;
+            text-align: center;
+            margin-top: 20px;
+        }
+        img {
+            position: absolute; /* 设置绝对定位 */
+            top: 0; /* 距离顶部的距离 */
+            left: 0; /* 距离左侧的距离 */
+            z-index: 0; /* 设置 z-index 属性，使其位于所有其他内容的底部 */
+        }
+    </style>
+</head>
+
+<body>
+    <img src="https://i.postimg.cc/L8HPwwjc/duke-university-wordmark-navyblue-012169.png" width="400px" style="display: block; margin: 0 auto;"/>
+    <div class="container">
+        <h1 th:text="'Your Notification Preference for ' + ${sectionId} + ' is: '"></h1>
+        <h2 th:text="${notiPref}"></h2>
+        <h2 text="Please select the method you would like to change it to"></h2>
+        <form th:action="@{/student/updateNotiPref(sectionId=${sectionId})}" method="post">
+            <h2>Please select the method you would like to change it to:</h2>
+            <div>
+                <select name="newNotiPref">
+                    <option value="EMAIL">Email</option>
+                    <option value="NOREMINDER">No Reminder</option>
+                </select>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+        <div th:if="${error}">
+            <h2 th:text="${error}"></h2>
+        </div>
+    </div>
+</body>
+
+</html>

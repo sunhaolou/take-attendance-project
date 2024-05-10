@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login-container {
+            text-align: center;
+            max-width: 500px; /* 增大容器的最大宽度 */
+            padding: 30px; /* 增大容器的内边距 */
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 30px; /* 增大标题与下方元素之间的间距 */
+            font-size: 36px; /* 增大标题的字体大小 */
+        }
+
+        form {
+            background-color: #fff;
+            padding: 30px; /* 增大表单的内边距 */
+            border-radius: 10px; /* 增大表单的圆角 */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 增大阴影效果 */
+        }
+
+        label {
+            display: block;
+            margin-bottom: 20px; /* 增大标签与下方元素之间的间距 */
+            font-size: 18px; /* 增大标签的字体大小 */
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 14px; /* 增大输入框的内边距 */
+            margin-bottom: 28px; /* 增大输入框与下方元素之间的间距 */
+            border: 1px solid #ccc;
+            border-radius: 8px; /* 增大输入框的圆角 */
+            box-sizing: border-box;
+            font-size: 20px; /* 增大输入框的字体大小 */
+            ::placeholder {
+                color: #aaa;
+            }
+        }
+
+        button[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            padding: 15px 30px; /* 增大按钮的内边距 */
+            cursor: pointer;
+            font-size: 20px; /* 增大按钮的字体大小 */
+            font-weight: bold;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        img {
+            position: absolute; /* 设置绝对定位 */
+            top: 0; /* 距离顶部的距离 */
+            left: 0; /* 距离左侧的距离 */
+            z-index: 0; /* 设置 z-index 属性，使其位于所有其他内容的底部 */
+        }
+    </style>
+</head>
+
+<body>
+    <img src="https://i.postimg.cc/L8HPwwjc/duke-university-wordmark-navyblue-012169.png" width="400px" style="display: block; margin: 0 auto;"/>
+    <div class="login-container">
+        <h1>Login</h1>
+        <form action="#" th:action="@{/auth/login}" th:method="post">
+            <div>
+                <input type="text" id="username" name="userNetId" placeholder="Username" required />
+            </div>
+            <div>
+                <input type="password" id="password" name="password" placeholder="Password" required />
+            </div>
+            <div>
+                <button type="submit">Login</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

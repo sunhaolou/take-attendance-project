@@ -1,0 +1,156 @@
+<!-- <!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Attendance</title>
+</head>
+
+<body>
+    <h1>Attendance</h1>
+    <h1 th:text="${sessionId}"></h1>
+    <div>
+        <p>Students:</p>
+
+        <form th:action="@{/attendance(sectionId=${sectionId},
+                sessionId=${sessionId},
+                netId=${netId})}" method="post">
+            <span th:text="${netId}"></span>
+            <select name="status">
+                <option value="PRESENT">Present</option>
+                <option value="TARDY">Tardy</option>
+                <option value="ABSENT">Absent</option>
+            </select>
+            </p>
+            <button type="submit">Submit</button>
+        </form>
+
+    </div>
+    <div th:if="${error}">
+        <h2 th:text="${error}"></h2>
+    </div>
+    <button onclick="window.location.href='/professor/dashboard'">Go Back To Dashboard</button>
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .attendance-container {
+            position: relative; /* 将容器设置为相对定位 */
+            text-align: center;
+            max-width: 700px;
+            min-width: 250px;
+            height: auto;
+            min-height: 500px;
+            padding: 30px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #666;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+
+        select {
+            padding: 8px 12px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            font-size: 1em;
+            margin-bottom: 10px;
+        }
+
+        .dashboard-button {
+            position: absolute; /* 将按钮设置为绝对定位 */
+            left: 50%; /* 水平居中 */
+            bottom: 20px; /* 距离底部的距离 */
+            transform: translateX(-50%); /* 居中对齐 */
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            padding: 15px 30px; /* 增大按钮的内边距 */
+            cursor: pointer;
+            font-size: 20px; /* 增大按钮的字体大小 */
+            font-weight: bold;
+        }
+        .submit-button {
+            position: absolute; /* 将按钮设置为绝对定位 */
+            left: 50%; /* 水平居中 */
+            transform: translateX(-50%); /* 居中对齐 */
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            padding: 15px 30px; /* 增大按钮的内边距 */
+            cursor: pointer;
+            font-size: 20px; /* 增大按钮的字体大小 */
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        img {
+            position: absolute; /* 设置绝对定位 */
+            top: 0; /* 距离顶部的距离 */
+            left: 0; /* 距离左侧的距离 */
+            z-index: 0; /* 设置 z-index 属性，使其位于所有其他内容的底部 */
+        }
+    </style>
+</head>
+
+<body>
+    <img src="https://i.postimg.cc/L8HPwwjc/duke-university-wordmark-navyblue-012169.png" width="400px" style="display: block; margin: 0 auto;"/>
+    <div class="attendance-container">
+        <h1>Attendance</h1>
+        <h2 th:text="${sessionId}"></h2>
+        <div>
+            <form th:action="@{/attendance(sectionId=${sectionId},
+                sessionId=${sessionId},
+                netId=${netId})}" method="post">
+                <span th:text="${netId}"></span>
+                <select name="status">
+                    <option value="PRESENT">Present</option>
+                    <option value="TARDY">Tardy</option>
+                    <option value="ABSENT">Absent</option>
+                </select>
+                </p>
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
+
+        </div>
+        <div th:if="${error}">
+            <h2 th:text="${error}"></h2>
+        </div>
+        <button onclick="window.location.href='/professor/dashboard'" class="dashboard-button">Dashboard</button>
+    </div>
+</body>
+
+</html>

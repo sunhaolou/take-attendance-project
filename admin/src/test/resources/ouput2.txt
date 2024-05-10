@@ -1,0 +1,43 @@
+Notification Preference table created
+Welcome to the admin app!
+===============================
+Please enter admin's username:
+Please enter admin's password:
+Login successfully!
+===============================
+Welcome to the admin dashboard
+===============================
+Please choose the input method (enter the number):
+1. Manual input
+2. Batch input by importing files
+3. Exit
+Please choose the file type (enter the number):
+1. Student file
+2. Professor file
+3. Back to the main menu
+Please enter the file path:
+Failed to process the file: Is a directory
+Working Directory = /home/hhn3/project-team-5/admin
+Please enter the file path:
+Failed to open the file: sdac
+Working Directory = /home/hhn3/project-team-5/admin
+Please enter the file path:
+Failed to open the file: src/resources/noPhone.csv
+Working Directory = /home/hhn3/project-team-5/admin
+Please enter the file path:
+Failed to process the file: csv file is invalid - phone exists but phone number is invalid
+Please enter the file path:
+ERROR: duplicate key value violates unique constraint "students_pkey"
+  Detail: Key (netid)=(acky123) already exists.
+ERROR: duplicate key value violates unique constraint "students_pkey"
+  Detail: Key (netid)=(aylor123) already exists.
+ERROR: duplicate key value violates unique constraint "students_pkey"
+  Detail: Key (netid)=(ara123) already exists.
+===============================
+Welcome to the admin dashboard
+===============================
+Please choose the input method (enter the number):
+1. Manual input
+2. Batch input by importing files
+3. Exit
+Successfully exit!

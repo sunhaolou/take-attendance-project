@@ -1,0 +1,122 @@
+Notification Preference table created
+Welcome to the admin app!
+===============================
+Please enter admin's username:
+Please enter admin's password:
+Invalid username or password, please try again. You have 4 attempts left.
+===============================
+Please enter admin's username:
+Please enter admin's password:
+Invalid username or password, please try again. You have 3 attempts left.
+===============================
+Please enter admin's username:
+Please enter admin's password:
+Invalid username or password, please try again. You have 2 attempts left.
+===============================
+Please enter admin's username:
+Please enter admin's password:
+Login successfully!
+===============================
+Welcome to the admin dashboard
+===============================
+Please choose the input method (enter the number):
+1. Manual input
+2. Batch input by importing files
+3. Exit
+===============================
+Manual Input Mode, please choose the option below:
+===============================
+1. Add student
+2. Add professor
+3. Modify student
+4. Modify professor
+5. Back to main menu
+===============================
+Welcome to the admin dashboard
+===============================
+Please choose the input method (enter the number):
+1. Manual input
+2. Batch input by importing files
+3. Exit
+Please choose the file type (enter the number):
+1. Student file
+2. Professor file
+3. Back to the main menu
+Please enter the file path:
+Failed to open the file: asdfsa
+Working Directory = /home/hhn3/project-team-5/admin
+Please enter the file path:
+Failed to open the file: safas
+Working Directory = /home/hhn3/project-team-5/admin
+Please enter the file path:
+Failed to process the file: Mapping for netId not found, expected one of [1234567890, acky123, deqw12, Jacky Tan, Jacky@duke.edu]
+Please enter the file path:
+Failed to process the file: csv file is invalid - email is invalid
+Please enter the file path:
+Failed to process the file: csv file is invalid - netId is invalid
+Please enter the file path:
+Data inserted successfully
+Data inserted successfully
+Data inserted successfully
+===============================
+Welcome to the admin dashboard
+===============================
+Please choose the input method (enter the number):
+1. Manual input
+2. Batch input by importing files
+3. Exit
+Please choose the file type (enter the number):
+1. Student file
+2. Professor file
+3. Back to the main menu
+Please enter the file path:
+Data inserted successfully
+Data inserted successfully
+Data inserted successfully
+===============================
+Welcome to the admin dashboard
+===============================
+Please choose the input method (enter the number):
+1. Manual input
+2. Batch input by importing files
+3. Exit
+===============================
+Manual Input Mode, please choose the option below:
+===============================
+1. Add student
+2. Add professor
+3. Modify student
+4. Modify professor
+5. Back to main menu
+Enter netId: 
+Invalid netId format.
+Enter netId: 
+Enter password: 
+Enter legal name: 
+Enter email: 
+Enter phone number: 
+Invalid phone number format.
+Enter netId: 
+Enter password: 
+Enter legal name: 
+Enter email: 
+Enter phone number: 
+Data inserted successfully
+===============================
+Welcome to the admin dashboard
+===============================
+Please choose the input method (enter the number):
+1. Manual input
+2. Batch input by importing files
+3. Exit
+===============================
+Manual Input Mode, please choose the option below:
+===============================
+1. Add student
+2. Add professor
+3. Modify student
+4. Modify professor
+5. Back to main menu
+Enter netId: 
+Enter password: 
+Enter legal name: 
