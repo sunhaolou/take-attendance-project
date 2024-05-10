@@ -1,4 +1,4 @@
-# ECE 651 - Spring 24 - Team Project - Evolution 1
+# ECE 651 - Spring 24 - Team Project
 
 ## Team #5
 *Please replace the _x_ above with your team number*
