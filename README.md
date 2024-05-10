@@ -1,6 +1,5 @@
 # ECE 651 - Spring 24 - Team Project
 ## Team Members
-*Please complete your team information:*
 - *Hunter Shen / zs149*
 - *Hiep Nguyen / hhn3*
 - *Haolou Sun / hs392*
